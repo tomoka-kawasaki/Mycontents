@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN" "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+  <constant name="struts.devMode" value="true"/>
+  <package name="com.internousdev.site.action." extends="struts-default">
+
+    <action name="FirstAction" class="com.internousdev.site.action.FirstAction" method="execute">
+      <result name="success">buy.jsp</result>
+      <result name="login">login.jsp</result>
+    </action>
+
+    <action name="LiAction" class="com.internousdev.site.action.LiAction" method="execute">
+      <result name="success">buy.jsp</result>
+      <result name="admin">kanri.jsp</result>
+      <result name="error">error.jsp</result>
+    </action>
+
+    <action name="LoAction" class="com.internousdev.site.action.LoAction" method="execute">
+      <result name="success">logout.jsp</result>
+    </action>
+
+    <action name="HAction" class="com.internousdev.site.action.HAction" method="execute">
+      <result name="success">index.jsp</result>
+    </action>
+    <action name="UsAction" class="com.internousdev.site.action.UsAction" method="execute">
+      <result name="success">usaku.jsp</result>
+    </action>
+
+    <action name="UsakuAction" class="com.internousdev.site.action.UsakuAction" method="execute">
+      <result name="success">ukaku.jsp</result>
+      <result name="error">usaku.jsp</result>
+    </action>
+
+    <action name="UkakuAction" class="com.internousdev.site.action.UkakuAction" method="execute">
+      <result name="success">uryo.jsp</result>
+    </action>
+
+    <action name="UlAction" class="com.internousdev.site.action.UlAction" method="execute">
+      <result name="success">ulist.jsp</result>
+    </action>
+
+    <action name="UdAction" class="com.internousdev.site.action.UdAction" method="execute">
+      <result name="success">udele.jsp</result>
+      <result name="error">ulist.jsp</result>
+    </action>
+
+    <action name="UdeleAction" class="com.internousdev.site.action.UdeleAction" method="execute">
+      <result name="success">ulist.jsp</result>
+    </action>
+
+    <action name="IsAction" class="com.internousdev.site.action.IsAction" method="execute">
+      <result name="success">isaku.jsp</result>
+    </action>
+
+    <action name="IsakuAction" class="com.internousdev.site.action.IsakuAction" method="execute">
+      <result name="success">ikaku.jsp</result>
+      <result name="error">isaku.jsp</result>
+    </action>
+
+    <action name="IkakuAction" class="com.internousdev.site.action.IkakuAction" method="execute">
+      <result name="success">iryo.jsp</result>
+    </action>
+
+    <action name="IlAction" class="com.internousdev.site.action.IlAction" method="execute">
+      <result name="success">ilist.jsp</result>
+    </action>
+
+    <action name="IdAction" class="com.internousdev.site.action.IdAction" method="execute">
+      <result name="success">idele.jsp</result>
+      <result name="error">ilist.jsp</result>
+    </action>
+
+    <action name="IdeleAction" class="com.internousdev.site.action.IdeleAction" method="execute">
+      <result name="success">ilist.jsp</result>
+    </action>
+
+    <action name="KanriAction" class="com.internousdev.site.action.KanriAction" method="execute">
+      <result name="success">kanri.jsp</result>
+    </action>
+
+    <action name="BuyAction" class="com.internousdev.site.action.BuyAction" method="execute">
+      <result name="success">bitem.jsp</result>
+    </action>
+
+    <action name="BiAction" class="com.internousdev.site.action.BiAction" method="execute">
+      <result name="success">bkaku.jsp</result>
+    </action>
+
+    <action name="BkakuAction" class="com.internousdev.site.action.BkakuAction" method="execute">
+      <result name="success">bryo.jsp</result>
+    </action>
+
+    <action name="BryoAction" class="com.internousdev.site.action.BryoAction" method="execute">
+      <result name="success">blist.jsp</result>
+    </action>
+
+    <action name="BdAction" class="com.internousdev.site.action.BdAction" method="execute">
+      <result name="success">bdele.jsp</result>
+      <result name="error">blist.jsp</result>
+    </action>
+
+    <action name="BdeleAction" class="com.internousdev.site.action.BdeleAction" method="execute">
+      <result name="success">blist.jsp</result>
+    </action>
+
+  </package>
+</struts>

@@ -1,0 +1,68 @@
+body{
+    text-align:center;
+    background:#f0ffff;
+}
+
+header{
+    margin:10px auto;
+    width:600px;
+    font-size:40px;
+    border:3px dotted #5f9ea0;
+    background-color:#e0ffff;
+    border-radius:10px;
+}
+
+.form{
+    margin:10px auto;
+    text-align:left;
+    width:500px;
+    background-color:#afeeee;
+    border-radius:10px;
+}
+
+h2, .form div{
+    padding-top:20px;
+    padding-left:20px;
+}
+
+.submit{
+    margin-bottom:20px;
+    border-radius:5px;
+    background-color:cadetblue;
+    color:white;
+    border:1px solid cadetblue;
+}
+
+.kiji{
+    margin:10px auto;
+    background-color:cadetblue;
+    color:white;
+    width:560px;
+    border-radius:10px;
+    padding:10px;
+}
+
+h3{
+    width:500px;
+    border-bottom:2px dotted powderblue;
+    margin-left:20px;
+    text-align:left;
+    padding-left:20px;
+}
+
+.contents{
+    text-align:left;
+    padding-left:35px;
+    margin:10px;
+}
+
+.name{
+    text-align:right;
+    padding-right:50px;
+    font-size:13px;
+}
+
+footer{
+    margin:20px auto;
+    
+}
